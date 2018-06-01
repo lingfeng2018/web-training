@@ -1,0 +1,205 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style>
+body,
+html{
+	margin:0;
+	padding:0;
+	font:10px "Microsoft Yahei", Geneva, sans-serif;
+	}
+li{
+	text-decoration:none;
+	list-style:none;
+	}
+#head{
+	height:50px;
+	background:#333;
+	}
+#head #head-sub{
+	max-width:960px;
+	height:50px;
+	margin:0 auto;
+	background:#333;
+	position:relative;
+	}
+#head #logo{
+	font-size:1.8em;
+	font-weight:700;
+	color:#fff;
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%);
+	left:20px;
+	}
+#head #login{
+	position:absolute;
+	top:5px;
+	right:20px;
+	font-size:1.2em;
+	}
+#head #login a{ color:#eee; }
+#head #login span{ margin-right:5px;}
+
+#banner{
+	height:300px;
+	background:#6c6;
+	position:relative;
+	}
+#banner #banner-sub{
+	
+	font-size:1.2em;
+	color:#000;
+	
+	}
+#banner-sub ul{
+	position:absolute;
+	bottom:5px;
+	left:50%;
+	transform:translateX(-50%);
+	}
+#banner-sub ul li{
+	display:inline-block;
+	margin-left:2px;
+	width:20px;
+	height:20px;
+	text-align:center;
+	line-height:20px;
+	background:rgba(255,255,255,.8);
+	border-radius:50%;
+	transition:all 0.3s ease-in-out;
+	}
+#banner-sub li:hover{
+	color:#fff;
+	background:rgba(0,0,0,.8);
+	}
+#nav{
+	height:60px;
+	background:#eee;
+	}
+#nav #nav-sub{
+	position:relative;
+	height:100%;
+	max-width:960px;
+    margin:0 auto;
+
+	}
+#nav #nav-sub ul{
+    position:absolute;
+	bottom:0;
+	left:0;
+	max-width:960px;
+	margin-bottom:0px;
+	}
+#nav #nav-sub li{
+	font-size:1.2em;
+	float:left;
+	margin-left:5px;
+	padding:10px 20px;
+	border:1px solid #CCC;
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+	transition:all 0.3s ease-in-out;
+	}
+#nav #nav-sub li:hover{
+	background:#FFF;
+	border-bottom:#FFF;
+	}
+#main{
+	width:960px;
+	margin:10px auto;
+	font-size:1.2em;
+	margin-bottom:50px;
+	margin-top:20px;
+	}
+#main #cont-1,
+#main #cont-2,
+#main #cont-3{
+	display:flex;
+	margin-bottom:10px;
+	text-align:center;
+	}
+#main #cont-1 div,
+#main #cont-2 div,
+#main #cont-3 div{
+	padding:80px;
+	border:1px solid #CCC;
+	margin-right:10px;
+	flex: 1 1 auto;
+	}
+#footer{
+	height:100px;
+	background:#666;
+	font-size:1.4em;
+	text-align:center;
+	color:#FFF;
+	}
+#footer span{
+	line-height:100px;
+	}
+</style>
+
+</head>
+
+<body>
+
+<div id="head"> 
+    <div id="head-sub">
+        <div id="logo">
+            <span>LOGO</span>
+        </div>
+        <div id="login">
+            <span><a href="#"> Github </a> </span>
+            <span><a href="#"> Register</a></span>
+            <span><a href="#"> Login</a></span>
+        </div>
+    </div>
+</div>
+
+<div id="banner">
+    <div id="banner-sub">
+    <ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    </ul>
+    </div>
+</div>
+
+<div id="nav">
+    <div id="nav-sub">
+    <ul>
+        <li>HOME</li>
+        <li>PROFILE</li>
+        <li>ABOUT</li>
+    </ul>
+    </div> 
+</div>
+
+<div id="main">
+    <div id="cont-1">
+        <div>This is Content 1 </div>
+        <div>MaybeContent 2</div>
+        <div>Content 3</div>
+    </div>
+
+    <div id="cont-2">
+        <div>Content 4 </div>
+        <div>Content 5 </div>
+        <div>Content 6</div>
+        <div>Content 7</div>
+    </div>
+    <div id="cont-3">
+        <div>Content 8</div>
+        <div>Content 9</div>
+        <div>Content 10</div>
+    </div>
+</div>
+<div id="footer">
+<span>@2018 ife.baidu.com </span>
+</div>
+</body>
+</html>
