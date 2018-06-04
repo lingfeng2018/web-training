@@ -1,0 +1,729 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style>
+body,
+html{
+	min-width:970px;
+	margin:0;
+	padding:0;
+	font:10px "Montserrat-Extralight", Helvetica, sans-serif;
+	}
+#header{
+	height:900px;
+	background:#ccc;
+	background:url(Background.jpg) no-repeat;
+	background-size:cover;
+	text-align:center;
+	color:#fff;
+	}
+#header #header-sub{
+	margin:0 auto;
+	width:970px;
+	padding:200px 0;
+	}
+#text{
+	width:800px;
+	margin:0 auto;
+	margin-bottom:100px;
+	}
+#text p:nth-child(1){
+	font-size:62px;
+	font-weight:600;
+	}
+#text p:nth-child(2){
+	font-size:20px;
+	opacity:0.6;
+	letter-spacing:1px;
+	}
+#account{
+	box-sizing:border-box;
+	width:970px;
+	height:250px;
+	padding:40px 60px;
+	border:1px solid rgba(255,255,255,0.3);
+	}
+#account p:nth-child(1){
+	font-size:16px;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	font-weight:400;
+	}
+#account p:nth-child(2){
+	font-size:12px;
+	text-transform:uppercase;
+	margin-bottom:40px;
+	opacity:0.3;
+	letter-spacing:2px;
+	}
+#form  input:nth-child(1){
+	box-sizing:border-box;
+	padding:15px 20px;
+	width:292px;
+	height:50px;
+	border:1px solid rgba(255,255,255,0.3);
+	background:transparent;
+	color:#fff;
+	font-size:14px;
+	}
+#form  input:nth-child(2){
+	box-sizing:border-box;
+	margin:0 25px;
+	padding:15px 20px;
+	width:292px;
+	height:50px;
+	border:1px solid rgba(255,255,255,0.3);
+	background:transparent;
+	color:rgba(255,255,255,0.3);
+	font-size:14px;
+	
+	}
+#form  input:nth-child(3){
+	box-sizing:border-box;
+	padding:15px 20px;
+	width:125px;
+	height:50px;
+	border:1px solid rgba(255,255,255,0.3);
+	background:#fff;
+	color:#666;
+	font-size:12px;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	}
+	
+#feature{
+	margin-top:50px;
+	box-sizing:border-box;
+	padding:50px;
+	height:800px;
+	}	
+#feature-title{
+	box-sizing:border-box;
+	margin:0 auto;
+	text-align:center;
+	width:770px;
+	}
+#feature-title>p:nth-child(1){
+	font-size:14px;
+	font-family:"Montserrat-light";
+	margin-bottom:-30px;
+	}	
+#feature-title>p:nth-child(2){
+	font-size:42px;
+	font-family:"Montserrat-light";
+	line-height:1.2;
+	}
+#features-content{
+	box-sizing:border-box;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	margin:30px auto;
+	width:1016px;
+	
+	}	
+#features-content .p-all{
+	margin-top:-25px;
+	overflow:hidden;
+	}
+#features-content p{
+	width:370px;
+	}
+#features-content .p1{
+	margin-bottom:-5px;
+	font-size:20px;
+	font-family:"Montserrat-Regular";
+	}	
+#features-content .p2{
+	font-size:16px;
+	}
+#features-content img{
+	float:left;
+	margin-right:20px;
+	}
+#features-content-1{
+	margin:50px auto;
+	
+	}
+	
+#features-content-2{
+	margin:50px auto;
+	}
+#action{
+	box-sizing:border-box;
+	padding-top:100px;
+    background:url(Background2.jpg) no-repeat;
+	background-size:cover;
+	color:#fff;
+	height:800px;
+}	
+#action-sub1{
+	width:900px;
+	margin:0 auto;
+}
+#action p{
+	width:370px;
+	margin-right:106px;
+}
+#action p:nth-child(1){
+	font-family:"Montserrat-light";
+    font-size:42px;
+	width:400px;
+	line-height:1.2;
+}
+#action p:nth-child(2){
+	font-family:"Montserrat-light";
+    font-size:18px;
+}
+#button{
+	margin-top:40px;
+}
+#button input{
+	width: 240px;
+	height: 60px;
+}
+#button input:nth-child(1){
+	background:#fff;
+	color:#000;
+	border:none;
+	margin-right:15px;
+}
+#button input:nth-child(2){
+	background:transparent;
+	color:#fff;
+	border:1px solie rgba(255,255,255,0.3);
+}
+#img{
+	float:right;
+	margin-top:-500px;
+}
+#action::after{
+	content:"";
+	display: block;
+	clear:both;
+}
+
+#feature2{
+	padding:100px 322px;
+	height:380px;
+	text-align:center;
+	border-bottom:1px solid #eee;
+	
+}
+#feature2-title{
+	font-size:42px;
+	margin:0 auto;
+}
+#feature2-sub{
+	margin-top:85px;
+	display:flex;
+	justify-content:center;
+	
+}
+#feature2-sub div{
+	text-align:center;
+	}
+
+#feature2-sub p{
+	
+	margin:30px 25px;
+    width:270px;
+	height:200px;
+	line-height:1.8;
+	
+}
+#feature3{
+	
+	padding-top:100px;
+	height:900px;
+	border-bottom:1px solid #eee;
+	border-bottom: 1px solid #eee;
+	
+}
+#feature3-sub1 {
+	margin:0 auto;
+	display:flex;
+	justify-content: center;
+	height:450px;
+
+}
+#feature3-sub2{
+	justify-content: center;
+	height:450px;
+	display:flex;
+	
+}
+#feature3-sub1 h3,
+#feature3-sub1 p{
+    margin-left:70px;
+	width:310px;
+}
+#feature3-sub2 h3,
+#feature3-sub2 p{
+	margin-right:70px;
+	width:310px;
+}
+#feature3 h3{
+	font-size:20px;
+}
+#feature3 p{
+	font-size:16px;
+}
+#feature3 img{
+	flex:0 0 auto;
+}
+#team{
+	height:1000px;
+	text-align:center;
+	border-bottom:1px solid #eee;
+}
+#teamsMembers{
+	margin:0 auto;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	width:1130px;
+}
+#teamsMembers #team-member1,
+#teamsMembers #team-member2,
+#teamsMembers #team-member3,
+#teamsMembers #team-member4{
+	box-sizing:border-box;
+	margin:15px;
+	width:470px;
+	height:340px;
+	
+}
+
+
+
+#team-member1{
+	background:url(Userpic1.jpg) no-repeat;
+	
+}
+#team-member2{
+	background:url(Userpic2.jpg) no-repeat;
+	
+}
+#team-member3{
+	background:url(Userpic3.jpg) no-repeat;
+	
+}
+#team-member4{
+	background:url(Userpic4.jpg) no-repeat;
+	
+}
+#team-title{
+	margin-top:60px;
+	margin-bottom:70px;
+}
+#team-title h3{
+	font-size:42px;
+	font-weight:400;
+	margin-bottom:15px;
+}
+#team-title p{
+	margin:0 auto;
+	width:700px;
+	font-size:18px;
+}
+
+.team-hover {
+    box-sizing:border-box;
+	width:100%;
+	height:100%;
+    background:rgba(0,0,0,.8);
+    padding:80px 100px;
+	color:#fff;
+	text-align:center;
+	opacity:0;
+	transition: opacity 0.3s linear;
+
+}
+#team-member1:hover .team-hover{
+	opacity:1;
+}
+#team-member2:hover .team-hover{
+	opacity:1;
+}
+#team-member3:hover .team-hover{
+	opacity:1;
+}
+#team-member4:hover .team-hover{
+	opacity:1;
+}
+.team-hover p:nth-child(1){
+	font-size:20px;
+	font-weight:600;
+	margin-bottom:15px;
+}
+.team-hover p:nth-child(2){
+	font-size:12px;
+	color:rgba(255,255,255,.5);
+	letter-spacing:1px;
+	text-transform:uppercase;
+}
+.share img{
+	margin:30px 15px;
+}
+
+#contact{
+	display:flex;
+	justify-content:center;
+	margin:0 auto;
+	margin-top:150px;
+}
+#contact-sub1{
+	border:1px solid #eee;
+	border-radius:8px;
+	width:470px;
+	height:560px;
+	margin-right:130px;
+}
+#contact-sub1 p{
+	font-size:16px;
+	text-transform: uppercase;
+	font-weight:500;
+	margin:40px 60px;
+	margin-bottom:30px;
+}
+#contact-sub1 input{
+	box-sizing:border-box;
+	width:370px;
+	height:50px;
+	margin:10px;
+	padding:5px 15px;
+}
+#btn1{
+	color:#fff;
+	background:#333;
+	border:none;
+}
+#txtarea{
+    box-sizing:border-box;
+	font-family:"Microsoft Yahei";
+	font-size:12px;
+	padding:5px 15px;
+	width:370px;	
+}
+#contact-sub2 {
+	margin-top:30px;
+}
+#contact-sub2 h3{
+	font-family:"Montserrat-light";
+	text-align:left;
+	font-size:42px;
+	margin-bottom:30px;
+	font-weight:100;
+}
+#contact-sub2>p{
+	width:370px;
+	height:100px;
+	font-size:16px;
+	text-align:left;
+	color:#aaa;
+}
+#address{
+	margin-top:30px;
+}
+#address>div{
+	text-align:left;
+	font-family:"Montserrat-light";
+	font-size:16px;
+	margin:0;
+}
+#address>#map{
+	background:url(Map.png) left center no-repeat;
+	padding-left:40px;
+}
+#address>#map p{
+	margin:0;
+	
+}
+#address>#phone{
+	background:url(Phone.png) left center no-repeat;
+	padding-left:40px;
+}
+#address>#mail{
+	background:url(Mail.png) left center no-repeat;
+	padding-left:40px;
+}
+#address p{
+	font-family:"Montserrat-light";
+	font-weight:500;
+}
+#footer{
+	display:flex;
+	box-sizing:border-box;
+	justify-content:space-around;
+	padding-top:50px;
+	height:400px;
+	background:#333;
+	color:#ccc;
+}
+#footer .ul li{
+	list-style:none;
+	font-size:16px;
+	margin-bottom:15px;
+}
+#footer .ul li:nth-child(1){
+	font-weight:500;
+	font-size:14px;
+	color:#fff;
+}
+#ul4 li{
+	text-align:left;
+}
+#ul4 li:nth-child(2){
+	width:300px;
+	height:60px;
+}
+#ul4 li:nth-child(3) img{
+    float:left;
+	margin-right:15px;
+	opacity:0.5;
+}
+</style>
+</head>
+
+<body>
+
+<div id="header">
+<div id="header-sub">
+<div id="text">
+    <p>Hello World</p>
+    <p>China is speeding up strategic plan, standards, traffic rules, laws and regulations        on accident-incurred liabilities for its smart car industry, Economic Information        Daily reported Thursday. </p>
+</div>
+
+<div id="account">
+<p> Create Your Account</p>
+<p> It is absolutely free</p>
+
+
+<form id="form">
+<input id="text" type="text" value="denis@getcraftwork.com">
+<input type="text" value="Create your password">
+<input type="button"  value="Sign Up">
+</form>
+</div>
+</div>
+</div>
+
+<div id="feature">
+
+<div id="feature-title"> 
+<p class="p1">Boatloads of Awesome</p>
+<p class="p2">Ready-made, customizable, HTML landing page sections</p>
+</div>
+
+<div id="features-content">
+
+<div id="features-content-1">
+<img src="Iphone Icon.png">
+<div class="p-all">
+<p class="p1">Mobile First</p>
+<p class="p2">All modulz are built mobile-first for maximum device compatibility.</p>
+</div>
+</div>
+
+<div id="features-content-2">
+<img src="Check Icon.png">
+<div class="p-all">
+<p class="p1">Accessibility</p>
+<p class="p2">Support for IE8, mobile and tablet devices, screenreaders and color blind.</p>
+</div>
+</div>
+
+
+<div id="features-content-3">
+<img src="Pencil Icon.png">
+<div class="p-all">
+<p class="p1">Fluid Typography</p>
+<p class="p2">On different screen sizes, fonts automagically scale with the viewport.</p>
+</div>
+</div>
+
+
+<div id="features-content-4">
+<img src="Settings Icon.png">
+<div class="p-all">
+<p class="p1">Customization</p>
+<p class="p2">Make any design your own using the Style Editor. Personalize fonts, colors, and layouts to create the custom look you want.</p>
+</div>
+</div>
+
+</div>
+</div>
+
+<div id="action">
+  <div id="action-sub1">  <p> Supportive policies for China's smart car</p>
+    <p> China will come up with its own smart car standards, traffic rules, laws and regulations relating to safety, according to the China Industry Innovation Alliance for the Intelligent and Connected Vehicles.</p>
+    <div id="button">
+    <form>
+		<input type="button" value="Check out Features">
+		<input type="button" value="Try product for Free">
+	</form>
+	</div>
+	</div>
+	<div id="img"><img src="Screen.png"></div>
+</div>
+
+<div id="feature2">
+<p id="feature2-title"> Try Our Awesome Products</p>
+<div id="feature2-sub">   
+	<div>
+		<img src="Singleton.png"">
+		<p>Li Jun, a China Academy of Engineering academician and also director of the alliance's experts' committee, said that China will also launch design guidance for smart cars, smart map architecture and standards for test grounds.</p>
+	</div>
+	<div>
+		<img src="Hero.png"">
+		<p>Li said the smart car industry is able to enlarge the current car industry by 1 trillion yuan ($158.15 billion) and also able to boost fast development in 5G, internet of cars, big data, artificial intelligence and new-energy vehicles.</p>
+	</div>
+	<div>
+	    <img src="Portland.png"">
+		<p>Zhang Junyi, a partner with NIO Capital, said that the smart car is the trend for the car industry and China's auto sector will usher in a new key development stage with the improvement of infrastructure, technology, policies and laws..</p>
+	</div>
+</div>
+</div>
+
+<div id="feature3">
+    <div id="feature3-sub1"> 
+	<div><img src="Photo.jpg"></div>
+	<div>
+		 <h3> Learn How to Improve Your Personal Business</h3>
+	     <p>Li Jun, a China Academy of Engineering academician and also director of the alliance's experts' committee, said that China will also launch design guidance for smart cars, smart map architecture and standards for test </p>
+	</div>
+	
+	 </div>
+	 
+	 <div id="feature3-sub2"> 
+			<div> 
+				 <h3> Choose Between Two Beautifully Designed Color Schemes.</h3>
+				 <p>China will come up with its own smart car standards, traffic rules, laws and regulations relating to safety, according to the China Industry Innovation Alliance for the Intelligent and Connected Vehicles. </p>
+			</div>
+			<div><img src="Photo2.jpg"></div>
+			 </div>
+</div>
+
+<div id="team">
+	<div id="team-title">
+		<h3>Our Awesome Crew</h3>
+		<p>Our unique online teaching style makes learning easy for everyone. Whether you are trying to land a new job, brush up on your skills.</p>
+	</div>
+	<div id="teamsMembers">
+    <div id="team-member1">
+	<div class="team-hover">
+		<p>Ethan Dutton</p>
+		<p>Senior Visual Designer</p>
+		<div class="share"> 
+			<img src="Facebook.png">
+			<img src="Twitter.png">
+			<img src="Instagram.png">
+		</div>
+	</div>
+	</div>
+
+	<div id="team-member2">
+			<div class="team-hover">
+					<p>Ethan Dutton</p>
+					<p>Senior Visual Designer</p>
+					<div class="share"> 
+						<img src="Facebook.png">
+						<img src="Twitter.png">
+						<img src="Instagram.png">
+					</div>	
+	</div>
+	</div>
+	<div id="team-member3">
+			<div class="team-hover">
+					<p>Ethan Dutton</p>
+					<p>Senior Visual Designer</p>
+					<div class="share"> 
+						<img src="Facebook.png">
+						<img src="Twitter.png">
+						<img src="Instagram.png">
+					</div>	
+	</div>
+	</div>
+	<div id="team-member4">
+			<div class="team-hover">
+					<p>Ethan Dutton</p>
+					<p>Senior Visual Designer</p>
+					<div class="share"> 
+						<img src="Facebook.png">
+						<img src="Twitter.png">
+						<img src="Instagram.png">
+					</div>	
+	</div>
+	</div>
+</div>
+
+<div id="contact">
+	<div id="contact-sub1">
+		<p>Fell free to Write Us</p>
+		<input type="text" value="E-mail">
+		<input type="text" value="Subject">
+		<textarea id="txtarea" name="Message"  rows="10" cols="40"  >Message	
+		</textarea>	
+	
+		<input id="btn1" type="button" value="SEND">
+	</div>
+	<div id="contact-sub2">
+		 <h3>Contacts</h3>
+         <p>Make any design your own using the Style Editor. Personalize fonts, colors, and layouts to create the custom look you want.</p>
+	     <div id="address">
+			 <div id="map">
+				 <div>
+				 <p>60 King Street </p>
+				 <p>Feastrvale Trevose, PA 19057</p>
+				 </div>
+			 </div>
+			 <div id="phone">
+					<p>(755) 564-84-12</p>
+			 </div>
+			 <div id="mail">
+					<p>youname@mail.com</p>
+			 </div>
+		 </div>
+
+	</div>
+</div>
+<div id="footer">
+	<ul class="ul">
+		<li>Learn More </li>
+		<li>How it works? </li>
+		<li>Meeting tools </li>
+		<li>Live streaming </li>
+		<li>Contact method </li>
+	</ul>
+	<ul class="ul">
+			<li>About Us</li>
+			<li>About us </li>
+			<li>Features </li>
+			<li>Privacy police </li>
+			<li>Terms & Conditions </li>
+	</ul>
+		<ul class="ul">
+				<li>Support </li>
+				<li>F.A.Q. </li>
+				<li>Contact us </li>
+				<li>Live chat </li>
+				<li>Phone call </li>
+		</ul>
+		<ul class="ul" id="ul4">
+				<li>Enjoy your Life </li>
+				<li>Great web UI kit for designers, freelancers or business. </li>
+				<li>
+					<img src="Facebook Icon.png">
+					<img src="Google Icon.png">
+					<img src="LinkedIn Icon.png">
+					<img src="Pinterest Icon.png">
+					<img src="Tumbler Icon.png">
+					<img src="Twitter Icon.png">
+				</li>
+		</ul>
+</div>
+</body>
+</html>
