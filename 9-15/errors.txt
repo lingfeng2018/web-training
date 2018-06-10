@@ -1,0 +1,9 @@
+[2018-06-06 21:32:10] layer "Settings.png": Duplicate path: Settings.png
+[2018-06-06 21:32:29] layer "Avatar photo.png": Duplicate path: Avatar photo.png
+[2018-06-06 21:32:33] layer "Avatar photo.png": Duplicate path: Avatar photo.png
+[2018-06-06 21:32:37] layer "Avatar photo.png": Duplicate path: Avatar photo.png
+[2018-06-06 21:32:42] layer "Avatar photo.png": Duplicate path: Avatar photo.png
+[2018-06-06 21:32:46] layer "Avatar photo.png": Duplicate path: Avatar photo.png
+[2018-06-06 21:32:50] layer "Avatar photo.png": Duplicate path: Avatar photo.png
+[2018-06-06 21:32:56] layer "Avatar photo.png": Duplicate path: Avatar photo.png
+[2018-06-06 21:33:02] layer "Avatar photo.png": Duplicate path: Avatar photo.png
